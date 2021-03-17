@@ -1,0 +1,14 @@
+{
+  "name": "pyramid-puzzle",
+  "version": "1.0.0",
+  "description": "pyramid_puzzle solution and test",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Kai",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
