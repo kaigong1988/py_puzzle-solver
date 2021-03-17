@@ -1,7 +1,7 @@
 const pyramid = require('./pyramid_puzzle.js');
 
 describe(`#pyramid1`, () => {
-  test('should be able take a pyramid with depth of 4', () => {
+  test('should be able take a pyramid with depth of 5', () => {
     const py = [[2], [4, 3], [3, 2, 6], [2, 9, 5, 2], [10, 5, 2, 15, 5]];
     const target = 720;
     expect(pyramid(py, target)[0]).toBe('L');
