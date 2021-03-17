@@ -4,7 +4,8 @@
   "description": "pyramid_puzzle solution and test",
   "main": "app.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "start": "node app.js"
   },
   "author": "Kai",
   "license": "MIT",
